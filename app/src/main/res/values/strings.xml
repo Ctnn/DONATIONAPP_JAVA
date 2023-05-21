@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="forgot_password"><u>Forgot your password?</u></string>
+    <string name="sign_up"><u>Don\'t have an account? Sign up now!</u></string>
+    <string name="desc_logo">logo</string>
+
+    <string-array name="donation_type">
+        <item>Food Package (Small)</item>
+        <item>Food Package (Medium)</item>
+        <item>Food Package (Large)</item>
+        <item>Needy Care</item>
+        <item>Baby Essentials</item>
+        <item>School Supplies</item>
+        <item>Hygiene Kit (For Women)</item>
+        <item>Health Package</item>
+    </string-array>
+
+    <string-array name="donation_quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Istanbul</item>
+        <item>Ankara</item>
+        <item>Izmir</item>
+        <item>Bursa</item>
+        <item>Antalya</item>
+    </string-array>
+
+    <string-array name="donation_description">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+    </string-array>
+
+    <string-array name="holder"></string-array>
+
+
+    <string name="todo">TODO</string>
+    <string name="ba_lik_gelecek">BAŞLIK GELECEK</string>
+
+    <string-array name="bagis_turu_paket_txt">
+        <item>Erzak Paketi</item>
+        <item>İhtiyaç Sahibi Bakım Paketi</item>
+        <item>Bebek İhtiyaç Paketi</item>
+        <item>Okul İhtiyaç Paketi</item>
+        <item>Hijyen Paketleri</item>
+        <item>Sağlık Paketi</item>
+    </string-array>
+
+    <string-array name="bagis_aciklama_txt">
+        <item>Küçük,Orta,Büyük</item>
+        <item>Kurum Direkt İletecek İhtiyaç Sahiplerine</item>
+        <item>Bez - Mama vs.</item>
+        <item>Anaokul,Ortaokul,Lise,Üniversite</item>
+        <item>Kadınlara Pad ve diğer yardımlar için verilmesi gerekenler</item>
+        <item>Tekerlekli sandalye, işitme cihazı, protez, ilaç yardımları</item>
+    </string-array>
+
+
+</resources>
