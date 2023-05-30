@@ -3,186 +3,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7EB881"
+    android:background="#ffffff"
     tools:context="com.eraybd.project.MainActivity">
 
 
-    <include
-        android:id="@+id/include2"
-        layout="@layout/appbar"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:text="İletisime Gec"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/my_view11"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.566"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginBottom="8dp"
-        android:text="Harita"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/my_view9"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <View
-        android:id="@+id/my_view7"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="232dp"
-        android:layout_marginTop="312dp"
-        android:background=" #007251"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <View
-        android:id="@+id/my_view11"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="232dp"
-        android:layout_marginTop="484dp"
-        android:background="  #007251"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/my_view3"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="232dp"
-        android:layout_marginTop="156dp"
-        android:background="#007251"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/my_view9"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="484dp"
-        android:background="#007251"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/my_view10"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="492dp"
-        android:background=" #3DDC84"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/my_view4"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="240dp"
-        android:layout_marginTop="164dp"
-        android:background=" #3DDC84"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/my_view12"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="240dp"
-        android:layout_marginTop="492dp"
-        android:background="#3DDC84"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/my_view8"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="240dp"
-        android:layout_marginTop="320dp"
-        android:background="  #3DDC84"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/my_view5"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="312dp"
-        android:background=" #007251"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/my_view6"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="320dp"
-        android:background="#3DDC84"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/my_view"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="156dp"
-        android:background="#007251"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/my_view2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="164dp"
-        android:background=" #3DDC84"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="276dp"
-        android:layout_height="34dp"
-        android:text="Syn. Mehmet Vatansever"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/my_view3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/include2"
-        app:layout_constraintVertical_bias="0.639"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
-        android:id="@+id/box_image2"
+        android:id="@+id/top_icon2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="top_icon"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_icon" />
+
+    <TextView
+        android:id="@+id/tv_topleft2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_baseline_tv_24"
-        app:layout_constraintBottom_toBottomOf="@+id/my_view4"
-        app:layout_constraintEnd_toEndOf="@+id/my_view4"
-        app:layout_constraintStart_toStartOf="@+id/my_view4"
-        app:layout_constraintTop_toTopOf="@+id/my_view4"
-        tools:ignore="MissingConstraints" />
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Welcome"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_topleft3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="84dp"
+        android:text="Mehmet Vatansever"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/box_image1"
@@ -193,17 +54,167 @@
         app:layout_constraintEnd_toEndOf="@+id/my_view2"
         app:layout_constraintStart_toStartOf="@+id/my_view2"
         app:layout_constraintTop_toTopOf="@+id/my_view2"
+        app:layout_constraintVertical_bias="0.533"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/box_image3"
+    <TextView
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/my_view6"
-        app:layout_constraintEnd_toEndOf="@+id/my_view6"
-        app:layout_constraintStart_toStartOf="@+id/my_view6"
-        app:layout_constraintTop_toTopOf="@+id/my_view6"
-        app:srcCompat="@drawable/ic_baseline_tv_24" />
+        android:layout_marginBottom="4dp"
+        android:text="Contact"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/my_view11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="4dp"
+        android:text="Map"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/my_view9"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/my_view7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="396dp"
+        android:background=" #007251"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/my_view11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="568dp"
+        android:background="  #007251"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/my_view3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="240dp"
+        android:background="#007251"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/my_view9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="568dp"
+        android:background="#007251"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/my_view10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="576dp"
+        android:background=" #3DDC84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/my_view4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="248dp"
+        android:background=" #3DDC84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/my_view12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="576dp"
+        android:background="#3DDC84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/my_view8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="404dp"
+        android:background="  #3DDC84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/my_view5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="396dp"
+        android:background=" #007251"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/my_view6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="404dp"
+        android:background="#3DDC84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/my_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="240dp"
+        android:background="#007251"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/my_view2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="248dp"
+        android:background=" #3DDC84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_baseline_tv_24"
+        />
+
+    <ImageView
+        android:id="@+id/box_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_tv_24"
+        app:layout_constraintBottom_toBottomOf="@+id/my_view4"
+        app:layout_constraintEnd_toEndOf="@+id/my_view4"
+        app:layout_constraintStart_toStartOf="@+id/my_view4"
+        app:layout_constraintTop_toTopOf="@+id/my_view4"
+        app:layout_constraintVertical_bias="0.533"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/box_image5"
@@ -213,6 +224,7 @@
         app:layout_constraintEnd_toEndOf="@+id/my_view10"
         app:layout_constraintStart_toStartOf="@+id/my_view10"
         app:layout_constraintTop_toTopOf="@+id/my_view10"
+        app:layout_constraintVertical_bias="0.533"
         app:srcCompat="@drawable/ic_baseline_tv_24" />
 
     <ImageView
@@ -223,6 +235,7 @@
         app:layout_constraintEnd_toEndOf="@+id/my_view12"
         app:layout_constraintStart_toStartOf="@+id/my_view12"
         app:layout_constraintTop_toTopOf="@+id/my_view12"
+        app:layout_constraintVertical_bias="0.533"
         app:srcCompat="@drawable/ic_baseline_tv_24" />
 
     <ImageView
@@ -233,18 +246,19 @@
         app:layout_constraintEnd_toEndOf="@+id/my_view8"
         app:layout_constraintStart_toStartOf="@+id/my_view8"
         app:layout_constraintTop_toTopOf="@+id/my_view8"
+        app:layout_constraintVertical_bias="0.533"
         app:srcCompat="@drawable/ic_baseline_tv_24" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:text="İstek"
+        android:layout_marginBottom="4dp"
+        android:text="Request"
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/my_view3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintHorizontal_bias="0.572"
         app:layout_constraintStart_toEndOf="@+id/textView4" />
 
     <TextView
@@ -253,7 +267,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="84dp"
         android:layout_marginBottom="4dp"
-        android:text="TeslimAl"
+        android:text="Receive"
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/my_view5"
         app:layout_constraintStart_toStartOf="parent"
@@ -265,11 +279,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
         android:layout_marginBottom="4dp"
-        android:text="Bağışlar"
+        android:text="Donates"
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/my_view7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.01"
         app:layout_constraintStart_toEndOf="@+id/textView5"
         tools:ignore="MissingConstraints" />
 
@@ -278,11 +292,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="84dp"
-        android:layout_marginBottom="8dp"
-        android:text="Bağış"
+        android:layout_marginBottom="4dp"
+        android:text="Donate"
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/my_view"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/box_image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/my_view6"
+        app:layout_constraintEnd_toEndOf="@+id/my_view6"
+        app:layout_constraintStart_toStartOf="@+id/my_view6"
+        app:layout_constraintTop_toTopOf="@+id/my_view6"
+        app:layout_constraintVertical_bias="0.533"
+        app:srcCompat="@drawable/ic_baseline_tv_24" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import com.eraybd.project.database;
+
 
 
 public class BAGIS_RecyclerViewAdapter extends RecyclerView.Adapter<BAGIS_RecyclerViewAdapter.MyViewHolder>{

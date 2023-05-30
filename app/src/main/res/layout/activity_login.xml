@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/top_icon"
-    />
+        />
 
     <TextView
         android:id="@+id/tv_topleft"
@@ -30,7 +30,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:text="Login"
-    />
+        />
 
     <LinearLayout
         android:id="@+id/li_ll_main"
@@ -96,6 +96,11 @@
             android:layout_marginTop="15dp"
             android:text="@string/forgot_password"
             android:textAlignment="center" />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/li_bt_login"

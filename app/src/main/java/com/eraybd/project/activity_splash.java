@@ -18,9 +18,10 @@ public class activity_splash extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent pass_login = new Intent(activity_splash.this, com.eraybd.project.BagislarActivity.class);
+                Intent pass_login = new Intent(activity_splash.this, com.eraybd.project.activity_login.class);
                 startActivity(pass_login);
                 finish();
+
             }
         },3000);
 

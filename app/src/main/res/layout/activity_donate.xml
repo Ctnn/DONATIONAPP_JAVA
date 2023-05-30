@@ -65,7 +65,8 @@
                 android:id="@+id/dt_type_spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:color/transparent" />
+                android:background="@android:color/transparent"
+                tools:ignore="TouchTargetSizeCheck" />
 
         </LinearLayout>
 
@@ -75,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="6dp"
-            android:text="Description: xxx"
+            android:text="Description ---"
             android:textColor="#000000"
             android:textSize="12sp"
             android:textStyle="bold" />
@@ -103,7 +104,8 @@
                 android:id="@+id/dt_qua_spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:color/transparent" />
+                android:background="@android:color/transparent"
+                tools:ignore="TouchTargetSizeCheck" />
         </LinearLayout>
 
         <TextView
@@ -123,24 +125,30 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/dt_et_loc"
+            <LinearLayout
+                android:id="@+id/dt_ll_et_map_loc"
                 android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:layout_height="wrap_content"
-                android:background="@drawable/text_border_background"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:padding="14dp"
-                android:textColor="#707070"
-                android:textSize="12sp" />
+                android:background="@drawable/spinner_background"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <Spinner
+                    android:id="@+id/dt_loc_map_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/dt_bt_loc"
                 style="@android:style/Widget.Button"
                 android:layout_width="50dp"
                 android:layout_height="45dp"
-                android:background="@drawable/maps" />
+                android:background="@drawable/maps"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         </LinearLayout>
 
@@ -158,14 +166,14 @@
         <EditText
             android:id="@+id/dt_et_cont"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:background="@drawable/text_border_background"
             android:ems="10"
             android:hint="Phone Number (with area code)"
             android:inputType="phone"
             android:padding="12dp"
-            android:textColor="#707070"
-            android:textSize="12sp" />
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
         <LinearLayout
             android:id="@+id/dt_ll_sptotal"
@@ -188,9 +196,9 @@
                 android:id="@+id/dt_tv_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="15dp"
                 android:layout_marginTop="16dp"
-                android:text="xxx"
+                android:text=""
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />

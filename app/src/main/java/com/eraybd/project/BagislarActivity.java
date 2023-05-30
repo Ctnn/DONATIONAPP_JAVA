@@ -15,20 +15,14 @@ public class BagislarActivity extends AppCompatActivity {
     // ArrayList ile BagisAdlarini ve Açıklamalarını çekebileceğiz.
 
     ArrayList<BagisModel> bagisModelleri = new ArrayList<>();
-    private database database;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bagislar);
 
-        database = new database(this); // database nesnesini oluşturduk ve context'i geçtik
-        try {
-            database.connect(); // Veritabanına bağlanmak için connect() metodunu çağırdık
-            Toast.makeText(this, "Bağlantı Gerçekleştirildi", Toast.LENGTH_SHORT).show();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+
+
 
         RecyclerView recyclerView = findViewById(R.id.mRecyclerView);
         setUpBagisModelleri();

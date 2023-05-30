@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="6dp"
-            android:text="Description: xxx"
+            android:text="Description ---"
             android:textColor="#000000"
             android:textSize="12sp"
             android:textStyle="bold" />
@@ -97,17 +97,22 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/rc_et_loc"
+            <LinearLayout
+                android:id="@+id/rc_ll_loc"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
                 android:layout_weight=".5"
-                android:background="@drawable/text_border_background"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:padding="14dp"
-                android:textColor="#707070"
-                android:textSize="12sp" />
+                android:layout_height="match_parent"
+                android:background="@drawable/spinner_background"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <Spinner
+                    android:id="@+id/rc_loc_map_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent" />
+
+            </LinearLayout>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/rc_bt_loc"
@@ -145,7 +150,7 @@
                 android:inputType="textPersonName"
                 android:padding="14dp"
                 android:textColor="#707070"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/rc_bt_date"
@@ -157,7 +162,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/dt_tv_id"
+            android:id="@+id/dt_tv_id_lbl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Delivery ID"
@@ -167,8 +172,8 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="4dp"/>
 
-        <EditText
-            android:id="@+id/dt_et_id"
+        <TextView
+            android:id="@+id/dt_tv_id"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@drawable/text_border_background"
@@ -178,7 +183,7 @@
             android:inputType="phone"
             android:padding="12dp"
             android:textColor="#707070"
-            android:textSize="12sp" />
+            android:textSize="14sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/rc_bt_continue"

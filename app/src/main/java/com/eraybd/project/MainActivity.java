@@ -14,22 +14,42 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        View view1 = findViewById(R.id.my_view);
-        View view2 = findViewById(R.id.my_view2);
-        View view3 = findViewById(R.id.my_view3);
-        View view4 = findViewById(R.id.my_view4);
-        View view5 = findViewById(R.id.my_view5);
-        View view6 = findViewById(R.id.my_view6);
-        View view7 = findViewById(R.id.my_view7);
-        View view8 = findViewById(R.id.my_view8);
-        View view9 = findViewById(R.id.my_view9);
-        View view10 = findViewById(R.id.my_view10);
-        View view11= findViewById(R.id.my_view11);
-        View view12 = findViewById(R.id.my_view12);
+
+        ImageView imageView_donates = findViewById(R.id.box_image4);
+        ImageView imageView_donate = findViewById(R.id.box_image1);
+        ImageView imageView_request = findViewById(R.id.box_image2);
+        ImageView imageView_receive = findViewById(R.id.box_image3);
+        ImageView imageView_map = findViewById(R.id.box_image5);
+        ImageView imageView_contact = findViewById(R.id.box_image3);
+
+        imageView_donate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Intent intent = new Intent(getApplicationContext(), activity_donate.class);
+                    startActivity(intent);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
 
 
-        ImageView imageView = findViewById(R.id.box_image4);
-        imageView.setOnClickListener(new View.OnClickListener() {
+
+        imageView_receive.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Intent intent = new Intent(getApplicationContext(), activity_receive.class);
+                    startActivity(intent);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+
+        imageView_donates.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 try {
@@ -40,6 +60,22 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+
+        imageView_map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Intent intent = new Intent(getApplicationContext(), activity_gmap.class);
+                    startActivity(intent);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+
+
 
 
 

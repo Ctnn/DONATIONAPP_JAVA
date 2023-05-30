@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/top_icon"
-    />
+        />
 
     <TextView
         android:id="@+id/tv_topleft"
@@ -30,7 +30,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:text="Sign Up"
-    />
+        />
 
     <LinearLayout
         android:id="@+id/su_ll_main"
@@ -53,7 +53,7 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <EditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/su_et_name"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -76,7 +76,7 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <EditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/su_et_email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -99,7 +99,7 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <EditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/su_et_pw"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -134,7 +134,11 @@
             android:padding="12dp"
             android:textColor="#707070"
             android:textSize="18sp" />
-
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/su_bt_signup"
