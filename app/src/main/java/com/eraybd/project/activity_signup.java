@@ -63,7 +63,7 @@ public class activity_signup extends AppCompatActivity {
                     Toast.makeText(activity_signup.this, "Enter Password", Toast.LENGTH_SHORT).show();
                     return;
                 }
-
+    //deneme
                 // Kayıt ekleme işlemi
                 registerUser(name, email, password);
             }
